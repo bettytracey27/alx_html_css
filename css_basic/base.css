@@ -1,6 +1,23 @@
 /* base.css */
+
+/* base.css */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+article, aside {
+  padding: 1em;
+  background-color: white;
+  margin: 0.5em;
+  border-radius: 4px;
 }
