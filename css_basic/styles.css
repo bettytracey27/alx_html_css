@@ -1,9 +1,15 @@
 /* styles.css */
+/* Flexbox layout  */
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0;
+
+  /* Added background and font styling */
+  background-color: #f0f8ff; /* light blue background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 main {
@@ -15,9 +21,46 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+
+  /* Added padding, background, border radius, and shadow */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
 }
+
+/* Header styles */
+header ul {
+  list-style-type: none;
+  padding: 10px;
+  background-color: #004080; /* navy blue header */
+  display: flex;
+  align-items: center;
+  margin: 0; /* remove default margin */
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+/* Logo styling */
+header ul li.logo {
+  font-size: 1.8rem; /* bigger size */
+  color: #ff6600; /* orange color */
+}
+
+/* Links styling */
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
